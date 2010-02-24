@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/hello.py",
+     "pygem.gemspec",
      "test/test_pygem.rb"
   ]
   s.homepage = %q{http://github.com/steve9001/pygem}
