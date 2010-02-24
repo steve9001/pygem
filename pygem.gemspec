@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/hello.py",
+     "lib/pygem.rb",
      "pygem.gemspec",
      "test/test_pygem.rb"
   ]
