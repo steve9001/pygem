@@ -1,7 +1,3 @@
-require 'helper'
-
-class TestPygem < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
-  end
+IO.popen("python lib/hello.py") do |output| 
+  raise Exception unless output.gets == "Hello\n"
 end
